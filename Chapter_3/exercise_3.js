@@ -17,4 +17,4 @@ const countChar = function(str, char){
 };
 
 console.log(countBs("BBC"))
-console.log(countChar("kakkerlak", "k
+console.log(countChar("kakkerlak", "k"));

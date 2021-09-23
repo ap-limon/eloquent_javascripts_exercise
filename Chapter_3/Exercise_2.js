@@ -1,13 +1,14 @@
-const isEven = function(num) {
-  if(num > 0 && num % 2 === 0){
+const isEven = function (num) {
+  if (num === 0) {
     return true;
-  } else if(num > 0 && num % 2 !== 0) {
+  } else if (num === 1) {
     return false;
+  } else if (num < 0) {
+    return isEven(-num);
   } else {
-    return isEven(num);
+    return isEven(num - 2);
   }
 };
-
-console.log(isEven(50))
-console.log(isEven(75))
-console.log(isEven(-1))
+console.log(isEven(50));
+console.log(isEven(75));
+console.log(isEven(-1));
