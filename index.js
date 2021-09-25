@@ -1,5 +1,2 @@
-//chapter 4 data structures: object & arrays
+//chapter 4 Data Structures: Objects and Arrays
 
-const rage = function (start, end, step) {
-    
-}
