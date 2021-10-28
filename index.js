@@ -1,1 +1,6 @@
-//chapter 4 Data Structures: Objects and Arrays
+//chapter 5 Higher order functions
+ 
+
+// → 3
+// → 2
+// → 1
